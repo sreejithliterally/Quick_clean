@@ -12,7 +12,7 @@ scroll-behaviour: smooth;
 overflow-y: auto;
 scrollbar-width: none;
 color:black;
-background: url("./img/slanted-gradient.png");
+//background: url("./img/slanted-gradient.png");
 &::-webkit-scrollbar{
   display: none;
 }
