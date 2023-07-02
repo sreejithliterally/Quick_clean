@@ -22,7 +22,8 @@ justify-content: space-between;
 
 const Left = styled.div`
 flex:2;
-margin-left:200px;
+margin-botton:15px;
+margin-left:150px;
 display:flex;
 flex-direction: column;
 justify-content:center;
@@ -49,11 +50,17 @@ const Right = styled.div`
 flex:3;
 `;
 const Img = styled.img`
-margin-top:20px; 
-margin-left:70px;
+margin-top:15px; 
+margin-left:100px;
 height: 700px;
 width:550px;
+animation: animate 2s infinite ease alternate;
 
+@keyframes animate{
+  to{
+    transform: translateY(20px);
+  }
+}
 `;
 
 const Hero = () => {
@@ -69,7 +76,7 @@ const Hero = () => {
       </Left>
       <Right>
         {/*3d model*/}
-        <Img src="./img/hero4.svg"/>
+        <Img src="./img/bluehero1.svg"/>
       </Right>
     </Container>
     </Section>
