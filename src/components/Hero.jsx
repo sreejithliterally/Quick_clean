@@ -62,16 +62,14 @@ const Hero = () => {
     <Navbar/>
     <Container>
       <Left>
-        
-        
           <img src={quickclean} alt=""/> 
         <Desc>hdshisbur rb uhdvudvhuzv vgf ugfuhvufxvh yfgy fyvh fbfv  r7ev dv  gvusf u dvv v v fvdh
-          jvjvbdjvjdvhjdzvhjdvjdhnvikdhvkdnvjdnjvdvjmnvdmkn mn 
+          jvjvbdjvjdvhjdzvhjdvjdhnvikdhvkdnvjdnjvdvjmnvdmkn mn hhjvhj  gvhv hbn bmvhmbjmhbhbbuvkhg
         </Desc>
       </Left>
       <Right>
         {/*3d model*/}
-        <Img src="./img/hero1.svg"/>
+        <Img src="./img/hero4.svg"/>
       </Right>
     </Container>
     </Section>
