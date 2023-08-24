@@ -1,7 +1,7 @@
 import React from 'react'
 import { styled } from 'styled-components';
 import Navbar from './Navbar';
-import quickclean from '../../public/img/quickclean.svg'
+import quickclean from '../img/quickclean.svg'
 const Section = styled.div`
 height:100vh;
 width:100vw;

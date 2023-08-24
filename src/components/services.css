@@ -1,0 +1,48 @@
+/* Styling for the services container */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling for each row of service boxes */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for each service box */
+  .service-box {
+    flex: 0 0 calc(30% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #b9cca7, #72b1a1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  
+  /* Styling for the h3 headings in the service boxes */
+  .service-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Styling for the service images */
+  .service-image {
+    max-width: 100%;
+    max-height: 60%;
+  }
+  
+  /* Add a hover effect to slightly scale the box and change box-shadow */
+  .service-box:hover {
+    transform: scale(1.05); /* Scale up the box by 5% on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Change box-shadow on hover */
+  }
+  
