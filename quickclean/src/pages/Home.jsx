@@ -16,7 +16,7 @@ import carpet from '../images/carpet.png'
 import stain from '../images/stain.png'
 import saree from '../images/sareepol.png'
 import qc1 from '../images/qc1.png'
-import qc3 from '../images/qc 3.png'
+import qc3 from '../images/qc3.png'
 import qcog from '../images/qcreal.png'
 import user from '../images/user.jpeg'
 import ogfix from '../images/ogfix.png'
@@ -65,7 +65,11 @@ const Home = () => {
                 </div>
                 {/* <p>Where Cleanliness Meets Convenience</p> */}
                 <div className="btn-adjust">
-  <a href='#' className='btn1' style={{ marginLeft: '14rem' }}>Whatsapp</a>
+                <a
+href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service."
+  className="btn1"
+  style={{ marginLeft: '14rem' }}
+>Whatsapp</a>
 </div>
 
               </div>
