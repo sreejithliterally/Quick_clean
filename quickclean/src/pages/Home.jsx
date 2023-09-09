@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
+import React, {useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/free-mode';
+
+import {  EffectCube,Pagination } from 'swiper/modules';
+
+
 import './home.css';
 import bluehero from '../images/bluehero.svg'
+
 import qc4 from '../images/qc 4.png'
 import qc5 from '../images/qc5.png'
 import qc1 from '../images/qc1.png'
 import qc3 from '../images/qc 3.png'
 import qcog from '../images/qcreal.png'
 import user from '../images/user.jpeg'
+import ogfix from '../images/ogfix.png'
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,11 +24,17 @@ const Home = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
+
+  const slidesPerViewMobile = window.innerWidth >= 768 ? 3 : 1;
+
+
+  
   return (
     <div>
       <header>
         <a href='#' className='logo'>
-          Quickclean
+        <img src={qcog} alt="quickclean logo" style={{ width: '35%', height: 'auto' }} />
         
         </a>
 
@@ -50,7 +66,7 @@ const Home = () => {
 
               </div>
               <div className='image'>
-  <img src={bluehero} alt="quickclean logo" style={{ width: '100%', height: 'auto' }} />
+  <img src={ogfix} alt="quickclean logo" style={{ width: '100%', height: 'auto' }} />
 </div>
 
             </div>
@@ -65,38 +81,38 @@ const Home = () => {
         <div className="box-container">
           <div className="box">
             <img src={qc1} alt='card'/>
-            <h3>Steam Ironing</h3>
+            <h3>dry cleaning</h3>
             <p>We do Professional Ironing</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
             <img src={qc3} alt='card'/>
-            <h3>Steam Ironing</h3>
+            <h3>Laundry</h3>
             <p>We do Professional Ironing</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
             <img src={qc1} alt='card'/>
-            <h3>Steam Ironing</h3>
+            <h3>Expert stain removal</h3>
             <p>We do Professional Ironing</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
             <img src={qc3} alt='card'/>
-            <h3>Steam Ironing</h3>
+            <h3>Premium carpet and curtain wash</h3>
             <p>We do Professional Ironing</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
             <img src={qc1} alt='card'/>
-            <h3>Steam Ironing</h3>
+            <h3>Saree polishing</h3>
             <p>We do Professional Ironing</p>
 
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
             <img src={qc3} alt='card'/>
-            <h3>Steam Ironing</h3>
+            <h3>Professional ironing</h3>
             <p>We do Professional Ironing</p>
 
             <a href='#' className='btn'>schedule now</a>
@@ -137,14 +153,39 @@ const Home = () => {
         </div>
       </section>
 
-
-      <section className='review' id='review'>
+     
+      {/* <section className='review' id='review'> */}
         <h3 className='sub-heading'>customer's review</h3>
         <h1 className='heading'>what they say</h1>
+          
 
+        <Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
+        modules={[Pagination]}
+        className="review"
+      >
         <div className="swiper-container review-slider">
           <div className="swiper-wrapper">
-            <div className="swiper-slide slide">
+          <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
               <img src={user} alt=''/>
@@ -160,9 +201,11 @@ const Home = () => {
               </div>
               </div>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            </div>
+            {/* </div> */}
+            </SwiperSlide>
 
-            <div className="swiper-slide slide">
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
               <img src={user} alt=''/>
@@ -178,10 +221,10 @@ const Home = () => {
               </div>
               </div>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            </div>
-
-
-            <div className="swiper-slide slide">
+            {/* </div> */}
+            </SwiperSlide>
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
               <img src={user} alt=''/>
@@ -197,10 +240,10 @@ const Home = () => {
               </div>
               </div>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            </div>
-
-
-            <div className="swiper-slide slide">
+            {/* </div> */}
+            </SwiperSlide>
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
               <img src={user} alt=''/>
@@ -216,10 +259,89 @@ const Home = () => {
               </div>
               </div>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            </div>
+            {/* </div> */}
+            </SwiperSlide>
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
+              <i className='fas fa-quote-right'></i>
+              <div className="user">
+              <img src={user} alt=''/>
+              <div className="user-info">
+                <h3>xoom</h3>
+                <div className="stars">
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star-half-alt'></i>
+                </div>
+              </div>
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
+            {/* </div> */}
+            </SwiperSlide>
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
+              <i className='fas fa-quote-right'></i>
+              <div className="user">
+              <img src={user} alt=''/>
+              <div className="user-info">
+                <h3>xoom</h3>
+                <div className="stars">
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star-half-alt'></i>
+                </div>
+              </div>
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
+            {/* </div> */}
+            </SwiperSlide>
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
+              <i className='fas fa-quote-right'></i>
+              <div className="user">
+              <img src={user} alt=''/>
+              <div className="user-info">
+                <h3>xoom</h3>
+                <div className="stars">
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star-half-alt'></i>
+                </div>
+              </div>
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
+            {/* </div> */}
+            </SwiperSlide>
+
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
+              <i className='fas fa-quote-right'></i>
+              <div className="user">
+              <img src={user} alt=''/>
+              <div className="user-info">
+                <h3>xoom</h3>
+                <div className="stars">
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star-half-alt'></i>
+                </div>
+              </div>
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
+            {/* </div> */}
+          </SwiperSlide>
           </div>
         </div>
-      </section>
+      {/* </section> */}
+      </Swiper>
     </div>
   );
 };
