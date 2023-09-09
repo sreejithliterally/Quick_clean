@@ -50,10 +50,29 @@ section:nth-child(even){
     font-size: 1.7rem;
     color:#fff;
     background: rgb(15, 102, 114);
+
     border-radius: .5rem;
     cursor: pointer;
     padding: .8rem 2rem;
     
+}
+
+
+.btn1{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color:#fff;
+    background: #25d366;
+
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 2rem;
+    
+}
+.btn1:hover{
+    background: rgb(15, 102, 114);
+    letter-spacing: .1rem;
 }
 
 .btn:hover{
@@ -129,12 +148,17 @@ header .icons #menu-bars{
 
 
 @media(max-width:768px){
+    .home{
+        padding-bottom: 0;
+    
+    }
 
     .home .home-slider .slide .content {
         flex: 1 1 100%;
         padding-left: 0%;
         padding-right: 6rem;
         text-align: center;
+        padding-top:0;
     }
 
     .home .home-slider .slide .content .span-text {
@@ -150,6 +174,8 @@ header .icons #menu-bars{
         margin-top: 1rem;
         margin-right: 9rem;
         margin-left: 0%;
+        padding-bottom: 0;
+
         
     }
     /* .home .home-slider .slide .content .btn-adjust {
@@ -161,8 +187,10 @@ header .icons #menu-bars{
     .home .home-slider .slide .image img {
         max-width: 100%;
         height: auto;
+         padding-top: 0;
+         margin-top: -10rem
     }
-
+    
     header .icons #menu-bars{
     display: inline-block;
     }
@@ -208,11 +236,19 @@ header .icons #menu-bars{
   
 }
 
-
+@media(max-width:991px){
+    .home .home-slider .slide .image img{
+       padding-top: 4rem;
+        
+       
+    }
+}
 @media(max-width:991px){
     html{
         font-size: 50%;
     }
+
+    
     
 }
 
@@ -220,17 +256,18 @@ header .icons #menu-bars{
     display: flex;
     flex-wrap:wrap;
     gap: 2rem;
-    padding-top: 12rem;
+    padding-top:0;
 }
 
 .home .home-slider .slide .content{
     flex:1 1 45rem;
-    padding-top: 12rem;
+    padding-top: 15rem;
     padding-left: 4rem;
 }
 
 .home .home-slider .slide .image{
     flex:1 1 30rem;
+    padding-top: 4rem;
 }
 .home .home-slider .slide .content .hero-image{
     flex:1 1 30rem;
@@ -242,6 +279,7 @@ header .icons #menu-bars{
 .home .home-slider .slide .image img{
     max-width: 100%;
     height: auto;
+   padding-left: 5rem;
     
    
 }
@@ -260,7 +298,8 @@ header .icons #menu-bars{
 
 .home .hero-image .slide .content .btn-adjust .btn {
     margin-left: 20rem; /* Add this line to move the button 3rem to the right */
-  }
+  
+}
 
 
 
@@ -368,6 +407,8 @@ header .icons #menu-bars{
 .review {
     display: flex;
     flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 .review .slide{
     width: 30rem;

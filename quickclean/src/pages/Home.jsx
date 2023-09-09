@@ -11,12 +11,16 @@ import './home.css';
 import bluehero from '../images/bluehero.svg'
 
 import qc4 from '../images/qc 4.png'
-import qc5 from '../images/qc5.png'
+
+import carpet from '../images/carpet.png'
+import stain from '../images/stain.png'
+import saree from '../images/sareepol.png'
 import qc1 from '../images/qc1.png'
 import qc3 from '../images/qc 3.png'
 import qcog from '../images/qcreal.png'
 import user from '../images/user.jpeg'
 import ogfix from '../images/ogfix.png'
+import dryclean from '../images/dryclean.png'
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -61,7 +65,7 @@ const Home = () => {
                 </div>
                 {/* <p>Where Cleanliness Meets Convenience</p> */}
                 <div className="btn-adjust">
-  <a href='#' className='btn' style={{ marginLeft: '14rem' }}>Contact now</a>
+  <a href='#' className='btn1' style={{ marginLeft: '14rem' }}>Whatsapp</a>
 </div>
 
               </div>
@@ -80,40 +84,40 @@ const Home = () => {
         <h1 className="heading">popular services</h1>
         <div className="box-container">
           <div className="box">
-            <img src={qc1} alt='card'/>
+            <img src={dryclean} alt='card'/>
             <h3>dry cleaning</h3>
-            <p>We do Professional Ironing</p>
+            <p>Experience the epitome of garment care.</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
-            <img src={qc3} alt='card'/>
+            <img src={qc4} alt='card'/>
             <h3>Laundry</h3>
-            <p>We do Professional Ironing</p>
+            <p>Let us handle the chore of laundry for you!</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
-            <img src={qc1} alt='card'/>
+            <img src={stain} alt='card'/>
             <h3>Expert stain removal</h3>
-            <p>We do Professional Ironing</p>
+            <p>Stubborn stains meet their match with us. </p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
-            <img src={qc3} alt='card'/>
+            <img src={carpet} alt='card'/>
             <h3>Premium carpet and curtain wash</h3>
-            <p>We do Professional Ironing</p>
+            <p>Revive the beauty of your home.</p>
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
-            <img src={qc1} alt='card'/>
+            <img src={saree} alt='card'/>
             <h3>Saree polishing</h3>
-            <p>We do Professional Ironing</p>
+            <p>Elevate the allure of your exquisite sarees</p>
 
             <a href='#' className='btn'>schedule now</a>
           </div>
           <div className="box">
             <img src={qc3} alt='card'/>
             <h3>Professional ironing</h3>
-            <p>We do Professional Ironing</p>
+            <p>Say bye to wrinkles and hello to perfection.</p>
 
             <a href='#' className='btn'>schedule now</a>
           </div>
@@ -130,9 +134,9 @@ const Home = () => {
             <img src={bluehero} alt='test'/>
           </div>
           <div className="content">
-            <h3>best laundary service in kollam</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in perferendis velit, porro veniam ipsam cupiditate omnis eaque ut. Nemo </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in perferendis velit, porro veniam ipsam cupiditate omnis eaque ut. Nemo </p>
+            <h3>Beacause, we offer the best.</h3>
+            <p>At QuickClean, we understand the importance of clean, fresh, and well-maintained clothing and fabrics. Our passion for perfection drives us to deliver top-notch laundry and cleaning services tailored to meet your specific needs.</p>
+            <p>Our years of experience and a commitment to excellence, QuickClean has become the preferred choice for laundry and cleaning services in Kollam.</p>
             <div className="icons-container">
               <div className="icons">
                 <i className='fas fa-shipping-fast'></i>
