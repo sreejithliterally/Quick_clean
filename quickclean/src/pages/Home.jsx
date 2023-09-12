@@ -361,7 +361,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504577.792594507!2d76.11159312433364!3d8.8782875421071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd3dd74caf77%3A0xef9233f4612bf1b7!2sQuick%20Clean%20Dry%20Cleaners!5e0!3m2!1sen!2sin!4v1694357874442!5m2!1sen!2sin" width="600" height="400" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   <div class="contact-details" id ='contact'>
-    <h1 class="title">React out to us through</h1>
+    <h1 class="title">Reach out to us through</h1>
     <div class="location">
       <h2>Address:</h2>
       <p> Quick Clean dry cleaners,
