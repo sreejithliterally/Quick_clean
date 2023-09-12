@@ -8,7 +8,7 @@ import {  EffectCube,Pagination } from 'swiper/modules';
 
 
 import './home.css';
-import bluehero from '../images/bluehero.svg'
+import bluehero from '../images/bluehero.png'
 
 import qc4 from '../images/qc 4.png'
 import herofix from '../images/herofix.png'
