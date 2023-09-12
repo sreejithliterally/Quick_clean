@@ -11,15 +11,26 @@ import './home.css';
 import bluehero from '../images/bluehero.svg'
 
 import qc4 from '../images/qc 4.png'
-
+import herofix from '../images/herofix.png'
 import carpet from '../images/carpet.png'
 import stain from '../images/stain.png'
 import saree from '../images/sareepol.png'
 import qc1 from '../images/qc1.png'
 import qc3 from '../images/qc3.png'
 import qcog from '../images/qcreal.png'
-import user from '../images/user.jpeg'
 import ogfix from '../images/ogfix.png'
+import newhero from '../images/newherofix.png'
+
+import pc1 from '../images/testimonials/1.jpeg'
+import pc2 from '../images/testimonials/8.jpg'
+import pc3 from '../images/testimonials/7.jpg'
+import pc4 from '../images/testimonials/6.jpg'
+import pc5 from '../images/testimonials/5.jpg'
+import pc6 from '../images/testimonials/4.jpg'
+import pc7 from '../images/testimonials/3.jpg'
+import pc8 from '../images/testimonials/2.jpg'
+
+
 import dryclean from '../images/dryclean.png'
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -74,7 +85,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
 
               </div>
               <div className='image'>
-  <img src={ogfix} alt="quickclean logo" style={{ width: '100%', height: 'auto' }} />
+  <img src={newhero} alt="quickclean logo" style={{ width: '100%', height: 'auto' }} />
 </div>
 
             </div>
@@ -196,9 +207,9 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={user} alt=''/>
+              <img src={pc4} alt=''/>
               <div className="user-info">
-                <h3>xoom</h3>
+                <h3>Rajeev J</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
@@ -208,17 +219,34 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
+            <p>QuickClean has been a lifesaver for me. Their laundry and dry cleaning services are impeccable. I no longer dread laundry day, knowing that they're just a call away. The staff is friendly and professional, and my clothes have never looked better!</p>            {/* </div> */}
+            </SwiperSlide>
+          <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
+              <i className='fas fa-quote-right'></i>
+              <div className="user">
+              <img src={pc1} alt=''/>
+              <div className="user-info">
+                <h3>Robin Vargheese</h3>
+                <div className="stars">
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                </div>
+              </div>
+              </div>
+              <p>I recently had a stubborn stain on my favorite dress. Their stain removal service worked wonders! I was convinced the dress was ruined, but they managed to make it look brand new. I'm beyond impressed.</p>            {/* </div> */}
             </SwiperSlide>
 
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={user} alt=''/>
+              <img src={pc2} alt=''/>
               <div className="user-info">
-                <h3>xoom</h3>
+                <h3>Arun Kalesh</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
@@ -228,16 +256,34 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
+              <p>As a busy professional, I rely on QuickClean to keep my shirts and suits in perfect condition. Their ironing service is top-notch, and I appreciate their consistency in delivering clean, well-pressed clothes on time. Highly recommended!</p>
+                          {/* </div> */}
             </SwiperSlide>
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={user} alt=''/>
+              <img src={pc3} alt=''/>
               <div className="user-info">
-                <h3>xoom</h3>
+                <h3>Anupama</h3>
+                <div className="stars">
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                  <i className='fas fa-star'></i>
+                </div>
+              </div>
+              </div>
+            <p>  I had some delicate sarees that needed special care, and QuickClean didn't disappoint. The saree polishing service exceeded my expectations. My sarees are now beautifully polished and ready to make a statement at weddings and celebrations. QuickClean is my go-to for all things laundry and cleaning!   </p>         </SwiperSlide>
+           
+            <SwiperSlide className="slide">
+            {/* <div className="swiper-slide slide"> */}
+              <i className='fas fa-quote-right'></i>
+              <div className="user">
+              <img src={pc5} alt=''/>
+              <div className="user-info">
+                <h3>David</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
@@ -247,16 +293,15 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
+              <p>I can't say enough good things about QuickClean! Their premium carpet and curtain wash service breathed new life into my home. I had forgotten how vibrant my carpets and curtains used to be until they worked their magic. Thank you for making my home feel fresh and inviting again!</p>            {/* </div> */}
             </SwiperSlide>
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={user} alt=''/>
+              <img src={pc6} alt=''/>
               <div className="user-info">
-                <h3>xoom</h3>
+                <h3>Sebastian</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
@@ -266,16 +311,15 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
+              <p>Their laundry services are efficient, and my clothes come back looking impeccable. The convenience and quality they offer have made them my go-to for all things laundry and cleaning. I couldn't be happier!</p>            {/* </div> */}
             </SwiperSlide>
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={user} alt=''/>
+              <img src={pc7} alt=''/>
               <div className="user-info">
-                <h3>xoom</h3>
+                <h3>Riya Thomas</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
@@ -285,71 +329,60 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
-            </SwiperSlide>
-            <SwiperSlide className="slide">
-            {/* <div className="swiper-slide slide"> */}
-              <i className='fas fa-quote-right'></i>
-              <div className="user">
-              <img src={user} alt=''/>
-              <div className="user-info">
-                <h3>xoom</h3>
-                <div className="stars">
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star-half-alt'></i>
-                </div>
-              </div>
-              </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
-            </SwiperSlide>
-            <SwiperSlide className="slide">
-            {/* <div className="swiper-slide slide"> */}
-              <i className='fas fa-quote-right'></i>
-              <div className="user">
-              <img src={user} alt=''/>
-              <div className="user-info">
-                <h3>xoom</h3>
-                <div className="stars">
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star'></i>
-                  <i className='fas fa-star-half-alt'></i>
-                </div>
-              </div>
-              </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
+<p>QuickClean saved my favorite silk blouse from a coffee spill disaster! I thought it was ruined, but their stain removal experts worked their magic. I couldn't be happier with the results. QuickClean is a true lifesaver, and I highly recommend their stain removal services to everyone!</p>            {/* </div> */}
             </SwiperSlide>
 
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={user} alt=''/>
+              <img src={pc8} alt=''/>
               <div className="user-info">
-                <h3>xoom</h3>
+                <h3>Sam Kalarikal</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
-                  <i className='fas fa-star-half-alt'></i>
+                  <i className='fas fa-star'></i>
                 </div>
               </div>
               </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptate nisi quam fugiat temporibus blanditiis deserunt atque dolorum consequatur aliquid, magni animi</p>
-            {/* </div> */}
+<p>I'm a perfectionist when it comes to my clothes, and I've tried various dry cleaners in Kollam. QuickClean, however, is on a whole different level and my clothes smell wonderfully fresh. QuickClean is my newfound laundry obsession; I won't trust anyone else with my garments!</p>            {/* </div> */}
           </SwiperSlide>
           </div>
         </div>
       {/* </section> */}
       </Swiper>
+
+      
+      <div class="container">
+      <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504577.792594507!2d76.11159312433364!3d8.8782875421071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd3dd74caf77%3A0xef9233f4612bf1b7!2sQuick%20Clean%20Dry%20Cleaners!5e0!3m2!1sen!2sin!4v1694357874442!5m2!1sen!2sin" width="600" height="400" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="contact-details" id ='contact'>
+    <h1 class="title">React out to us through</h1>
+    <div class="location">
+      <h2>Address:</h2>
+      <p> Quick Clean dry cleaners,
+      Polayathodu, Kollam, Kerala 691011</p>
+    </div>
+    <div class="contact-info">
+      <h2>Contact Information:</h2>
+      <p>Phone: +91 8129311700</p>
+      <p>Email: oceanickollam@gmail.com</p>
+      <div className="copy">
+      <p>copyright quickclean 2023</p>
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+
+
+
+
     </div>
   );
 };
