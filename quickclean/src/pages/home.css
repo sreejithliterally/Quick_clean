@@ -222,13 +222,23 @@ header .icons #menu-bars{
         font-size: 2rem;
         background: #eee;
     }
+    iframe {
+        width: 100%; /* Set the width to 100% for responsiveness */
+        height: 300px; /* Adjust the height as needed for your design */
+      }
+    
     .container {
         flex-direction: column;
         align-items: center;
       }
     
+      .map{
+        max-width: 100% ;
+      }
+    
       .map, .contact-details {
         width: 100%;
+        
         margin-right: 0;
       }
 }
