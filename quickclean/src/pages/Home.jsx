@@ -149,7 +149,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
             <img src={bluehero} alt='test'/>
           </div>
           <div className="content">
-            <h3>Beacause, we offer the best.</h3>
+            <h3>Because, we offer the best.</h3>
             <p>At QuickClean, we understand the importance of clean, fresh, and well-maintained clothing and fabrics. Our passion for perfection drives us to deliver top-notch laundry and cleaning services tailored to meet your specific needs.</p>
             <p>Our years of experience and a commitment to excellence, QuickClean has become the preferred choice for laundry and cleaning services in Kollam.</p>
             <div className="icons-container">
@@ -162,7 +162,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 <span>customer friendly</span>
               </div>
               <div className="icons">
-                <i className='fas fa-dollar-sign'></i>
+              <i className="fa-solid fa-wallet"></i>                
                 <span>low cost</span>
               </div>
             </div>
