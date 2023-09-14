@@ -287,6 +287,8 @@ header .icons #menu-bars{
     padding-left: 4rem;
 }
 
+
+
 .home .home-slider .slide .image{
     flex:1 1 30rem;
     padding-top: 10rem;
@@ -395,6 +397,7 @@ header .icons #menu-bars{
     font-size: 1.5rem;
     padding: .5rem 0;
     line-height: 2;
+    text-transform:none;
 }
 
 .about .row .content .icons-container{
@@ -455,6 +458,11 @@ header .icons #menu-bars{
     align-items: center;
     padding-bottom: 1.5rem;
 }
+
+.review .slide p{
+    text-transform: none;
+}
+
 
 .review .slide .user img{
     height: 7rem;
