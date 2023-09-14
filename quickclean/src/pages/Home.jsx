@@ -219,7 +219,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-            <p>QuickClean has been a lifesaver for me. Their laundry and dry cleaning services are impeccable. I no longer dread laundry day, knowing that they're just a call away. The staff is friendly and professional, and my clothes have never looked better!</p>            {/* </div> */}
+            <p>QuickClean has been a lifesaver for me. Their laundry and dry cleaning services are impeccable. I no longer dread laundry day, knowing that they're just a call away. The staff is friendly and professional, and my clothes have never looked better</p>            {/* </div> */}
             </SwiperSlide>
           <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
@@ -275,7 +275,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-            <p>  I had some delicate sarees that needed special care, and QuickClean didn't disappoint. The saree polishing service exceeded my expectations. My sarees are now beautifully polished and ready to make a statement at weddings and celebrations. QuickClean is my go-to for all things laundry and cleaning!   </p>         </SwiperSlide>
+            <p>  I had some delicate sarees that needed special care, and QuickClean didn't disappoint. The saree polishing service exceeded my expectations. My sarees are now beautifully polished and ready to make a statement at weddings and celebrations. QuickClean is my go-to for all things laundry and cleaning.  </p>         </SwiperSlide>
            
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
@@ -293,7 +293,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>I can't say enough good things about QuickClean! Their premium carpet and curtain wash service breathed new life into my home. I had forgotten how vibrant my carpets and curtains used to be until they worked their magic. Thank you for making my home feel fresh and inviting again!</p>            {/* </div> */}
+              <p>I can't say enough good things about QuickClean! Their premium carpet and curtain wash service breathed new life into my home. I had forgotten how vibrant my carpets and curtains used to be until they worked their magic. Thank you for making my home feel fresh and inviting again</p>            {/* </div> */}
             </SwiperSlide>
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
@@ -311,7 +311,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-              <p>Their laundry services are efficient, and my clothes come back looking impeccable. The convenience and quality they offer have made them my go-to for all things laundry and cleaning. I couldn't be happier!</p>            {/* </div> */}
+              <p>Their laundry services are efficient, and my clothes come back looking impeccable. The convenience and quality they offer have made them my go-to for all things laundry and cleaning. </p>            {/* </div> */}
             </SwiperSlide>
             <SwiperSlide className="slide">
             {/* <div className="swiper-slide slide"> */}
@@ -329,7 +329,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-<p>QuickClean saved my favorite silk blouse from a coffee spill disaster! I thought it was ruined, but their stain removal experts worked their magic. I couldn't be happier with the results. QuickClean is a true lifesaver, and I highly recommend their stain removal services to everyone!</p>            {/* </div> */}
+<p>QuickClean saved my favorite silk blouse from a coffee spill disaster! I thought it was ruined, but their stain removal experts worked their magic. I couldn't be happier with the results. I highly recommend their stain removal services to everyone</p>            {/* </div> */}
             </SwiperSlide>
 
             <SwiperSlide className="slide">
@@ -348,7 +348,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
                 </div>
               </div>
               </div>
-<p>I'm a perfectionist when it comes to my clothes, and I've tried various dry cleaners in Kollam. QuickClean, however, is on a whole different level and my clothes smell wonderfully fresh. QuickClean is my newfound laundry obsession; I won't trust anyone else with my garments!</p>            {/* </div> */}
+<p>I'm a perfectionist when it comes to my clothes, and I've tried various dry cleaners in Kollam. QuickClean, however, is on a whole different level and my clothes smell wonderfully fresh. QuickClean is my newfound laundry obsession; I won't trust anyone else with my garments</p>            {/* </div> */}
           </SwiperSlide>
           </div>
         </div>
