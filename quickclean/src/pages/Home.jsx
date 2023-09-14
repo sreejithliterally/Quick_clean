@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 
-import {  EffectCube,Pagination } from 'swiper/modules';
+import {  Pagination } from 'swiper/modules';
 
 
 import './home.css';
@@ -29,6 +29,8 @@ import pc5 from '../images/testimonials/5.jpg'
 import pc6 from '../images/testimonials/4.jpg'
 import pc7 from '../images/testimonials/3.jpg'
 import pc8 from '../images/testimonials/2.jpg'
+import aravind from '../images/testimonials/aravind.jpeg'
+import arun from '../images/testimonials/arun.jpeg'
 
 
 import dryclean from '../images/dryclean.png'
@@ -41,7 +43,7 @@ const Home = () => {
 
 
 
-  const slidesPerViewMobile = window.innerWidth >= 768 ? 3 : 1;
+  
 
 
   
@@ -281,9 +283,9 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={pc5} alt=''/>
+              <img src={aravind} alt=''/>
               <div className="user-info">
-                <h3>David</h3>
+                <h3>Aravind</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
