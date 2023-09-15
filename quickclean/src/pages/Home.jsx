@@ -102,13 +102,21 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
       </section>
 
 
-      <div className="responsive-image-section">
+      {/* <div className="responsive-image-section">
       <h3 className="sub-heading">How we work</h3>
         <h1 className="heading">From the root to the leaf</h1>
       <img src={section}  className="responsive-image" alt='test'/>
 
+    </div> */}
+
+<div className="responsive-image-section">
+      <h3 className="sub-heading">How we work</h3>
+      <h1 className="heading">From the root to the leaf</h1>
+      <img src={section}  className="responsive-image" alt='test'/>
     </div>
 
+
+    
 
 
       <section className='services' id='services'>

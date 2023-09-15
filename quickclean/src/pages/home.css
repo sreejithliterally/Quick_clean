@@ -241,6 +241,10 @@ header .icons #menu-bars{
         
         margin-right: 0;
       }
+
+      .responsive-image-section .responsive-image {
+        max-width: 75%;
+      }
 }
 
 
@@ -395,21 +399,21 @@ header .icons #menu-bars{
   }
   
   .sub-heading {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: rgb(50, 136, 50); /* Adjust the color as needed */
   }
   
   .heading {
-    font-size: 36px;
+    font-size: 20px;
     margin-bottom: 20px;
     font-weight: bold;
     color: rgb(15, 102, 114); /* Adjust the color as needed */
   }
   
   .responsive-image {
-    max-width: 100%;
-    height: auto;
+    max-width: 40%;
+    /* height: auto; */
     
     margin-top: 6rem;
   }
