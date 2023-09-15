@@ -21,15 +21,11 @@ import qcog from '../images/qcreal.png'
 import ogfix from '../images/ogfix.png'
 import newhero from '../images/newherofix.png'
 import section from '../images/newreal.png'
-import time from '../images/colored2.png'
 
 
 
 import pc1 from '../images/testimonials/1.jpeg'
 import pc2 from '../images/testimonials/8.jpg'
-import pc3 from '../images/testimonials/7.jpg'
-import pc4 from '../images/testimonials/6.jpg'
-import pc5 from '../images/testimonials/5.jpg'
 import pc6 from '../images/testimonials/4.jpg'
 import pc7 from '../images/testimonials/3.jpg'
 import sam from '../images/testimonials/sam.jpeg'
