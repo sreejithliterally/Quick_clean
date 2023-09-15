@@ -413,9 +413,10 @@ header .icons #menu-bars{
   
   .responsive-image {
     max-width: 40%;
+    margin-right: 2rem;
     /* height: auto; */
     
-    margin-top: 6rem;
+    margin-top: 1rem;
   }
   
 
