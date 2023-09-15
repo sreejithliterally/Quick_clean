@@ -32,9 +32,10 @@ import pc4 from '../images/testimonials/6.jpg'
 import pc5 from '../images/testimonials/5.jpg'
 import pc6 from '../images/testimonials/4.jpg'
 import pc7 from '../images/testimonials/3.jpg'
-import pc8 from '../images/testimonials/2.jpg'
+import sam from '../images/testimonials/sam.jpeg'
 import aravind from '../images/testimonials/aravind.jpeg'
 import arun from '../images/testimonials/arun.jpeg'
+import arya from '../images/testimonials/arya.jpeg'
 
 
 import dryclean from '../images/dryclean.png'
@@ -302,7 +303,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={pc3} alt=''/>
+              <img src={arya} alt=''/>
               <div className="user-info">
                 <h3>Anupama</h3>
                 <div className="stars">
@@ -375,7 +376,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={pc8} alt=''/>
+              <img src={sam} alt=''/>
               <div className="user-info">
                 <h3>Sam Kalarikal</h3>
                 <div className="stars">
@@ -402,6 +403,7 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
   <div className="contact-details" id ='contact'>
     <h1 className="title">Reach out to us through</h1>
     <div className="location">
+    <h2>Mon-Sat (9am-6pm) </h2>
       <h2>Address:</h2>
       <p> Quick Clean dry cleaners,
       Polayathodu, Kollam, Kerala 691011</p>
