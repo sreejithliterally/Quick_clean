@@ -370,6 +370,55 @@ header .icons #menu-bars{
     border: 2.5px solid black;
 }
 
+
+
+/* .how .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+} */
+
+/* .hpw .row .image{
+    flex: 1 1 45rem;
+} */
+
+.responsive-image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center; /* Center-align text content */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(50, 136, 50); /* Adjust the color as needed */
+  }
+  
+  .heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(15, 102, 114); /* Adjust the color as needed */
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+    
+    margin-top: 6rem;
+  }
+  
+
+
+
+
+
 .about .row{
     display: flex;
     flex-wrap: wrap;

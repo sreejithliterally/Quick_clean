@@ -20,7 +20,7 @@ import qc3 from '../images/qc3.png'
 import qcog from '../images/qcreal.png'
 import ogfix from '../images/ogfix.png'
 import newhero from '../images/newherofix.png'
-import section from '../images/section.png'
+import section from '../images/newreal.png'
 
 
 
@@ -101,6 +101,16 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
 
       </section>
 
+
+      <div className="responsive-image-section">
+      <h3 className="sub-heading">How we work</h3>
+        <h1 className="heading">From the root to the leaf</h1>
+      <img src={section}  className="responsive-image" alt='test'/>
+
+    </div>
+
+
+
       <section className='services' id='services'>
         <h3 className="sub-heading">Our Services</h3>
         <h1 className="heading">popular services</h1>
@@ -149,18 +159,8 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
       </section>
 
 
-      <section className='about' id='about'>
-        <h3 className='sub-heading'>How we work</h3>
-        <h1 className='heading'>The Workflow</h1>
-        <div className="row">
-          <div className="image">
-            <img src={section} alt='test'/>
-          </div>
-          </div>
-          
 
-          
-      </section>
+     
 
       <section className='about' id='about'>
         <h3 className='sub-heading'>about us</h3>
