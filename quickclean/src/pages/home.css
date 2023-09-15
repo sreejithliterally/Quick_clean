@@ -194,6 +194,14 @@ header .icons #menu-bars{
          padding-top: 0;
          margin-top: -12rem;
     }
+    .home .home-slider .slide .time-image{
+        max-width: 100%;
+        padding-left: 25rem;
+        padding-top: 0;
+       
+        
+    }
+ 
     
     header .icons #menu-bars{
     display: inline-block;
@@ -311,6 +319,12 @@ header .icons #menu-bars{
    
     
    
+}
+
+.home-slider .slide  .time p{
+    color: #25d366;
+    margin-top: 35rem;
+    justify-content: center;
 }
 
 .home .home-slider .slide .content span{

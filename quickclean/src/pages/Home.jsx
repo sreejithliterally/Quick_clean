@@ -21,6 +21,7 @@ import qcog from '../images/qcreal.png'
 import ogfix from '../images/ogfix.png'
 import newhero from '../images/newherofix.png'
 import section from '../images/newreal.png'
+import time from '../images/colored2.png'
 
 
 
@@ -79,6 +80,7 @@ const Home = () => {
                 <div className='hero-image'>
                 <img src={qcog} alt='card' style={{ width: '100%', height: 'auto' }}/>
                 </div>
+                
                 {/* <p>Where Cleanliness Meets Convenience</p> */}
                 <div className="btn-adjust">
                 <a
@@ -89,10 +91,18 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
 </div>
 
               </div>
+              {/* <div className='time-image'>
+<img src={time} className='time' alt="quickclean logo" />
+</div> */}
+
               <div className='image'>
   {/* <img src={newhero} alt="quickclean logo" style={{ width: '100%', height: 'auto' }} /> */}
   <img src={newhero} alt="quickclean logo" style={{ width: '100%', height: 'auto' }} />
 
+
+</div>
+
+            <div className='time'>
 </div>
 
             </div>
@@ -236,9 +246,9 @@ href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service.
             {/* <div className="swiper-slide slide"> */}
               <i className='fas fa-quote-right'></i>
               <div className="user">
-              <img src={pc4} alt=''/>
+              <img src={arun} alt=''/>
               <div className="user-info">
-                <h3>Rajeev J</h3>
+                <h3>Arun Vijay</h3>
                 <div className="stars">
                   <i className='fas fa-star'></i>
                   <i className='fas fa-star'></i>
