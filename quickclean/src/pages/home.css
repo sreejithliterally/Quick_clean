@@ -57,8 +57,29 @@ section:nth-child(even){
     
 }
 
+/* Define a class for round buttons */
+.rounded-button {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-family:'Times New Roman', Times, serif;
 
-.btn1{
+    display: inline-block;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border-radius: 50%; /* Makes the button round */
+    background-color: rgb(34, 148, 34); /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a transition for hover effect */
+  }
+  
+  /* Define hover effect */
+  .rounded-button:hover {
+    background-color: rgb(15, 102, 114); /* Change the background color on hover */
+  }
+  
+
+
+.btn2{
     margin-top: 1rem;
     display: inline-block;
     font-size: 1.7rem;
@@ -70,7 +91,7 @@ section:nth-child(even){
     padding: .8rem 2rem;
     
 }
-.btn1:hover{
+.btn:hover{
     background: rgb(15, 102, 114);
     letter-spacing: .1rem;
 }
@@ -315,7 +336,7 @@ header .icons #menu-bars{
     margin-left: 13rem;
 
 font-style: italic;
-font-size: 1.3rem;
+font-size: 1.7rem;
 }
 
 

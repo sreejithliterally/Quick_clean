@@ -82,14 +82,15 @@ const Home = () => {
                 </div>
                 {/* <p>Where Cleanliness Meets Convenience</p> */}
                 <div className="btn-adjust">
-                <a
-href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service."
-  className="btn1"
-  style={{ marginLeft: '14rem' }}
->Whatsapp Us</a>
-
-
+  <a
+    href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service."
+    className="rounded-button" // Apply the 'rounded-button' class here
+    style={{ marginLeft: '14rem' }}
+  >
+    <i class="fab fa-whatsapp"></i> Now
+  </a>
 </div>
+
 
               </div>
               {/* <div className='time-image'>
