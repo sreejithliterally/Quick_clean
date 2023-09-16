@@ -77,14 +77,18 @@ const Home = () => {
                 <div className='hero-image'>
                 <img src={qcog} alt='card' style={{ width: '100%', height: 'auto' }}/>
                 </div>
-                
+                  <div className='hero-p'>
+              <p> Want us to pick your clothes?</p>
+                </div>
                 {/* <p>Where Cleanliness Meets Convenience</p> */}
                 <div className="btn-adjust">
                 <a
 href="https://wa.me/+918129311700?text=Hi, I want to enquire about your service."
   className="btn1"
   style={{ marginLeft: '14rem' }}
->Whatsapp</a>
+>Whatsapp Us</a>
+
+
 </div>
 
               </div>

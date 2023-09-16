@@ -201,6 +201,10 @@ header .icons #menu-bars{
        
         
     }
+    .home .home-slider .slide .content p{
+        margin-right: 3rem;
+    }
+
  
     
     header .icons #menu-bars{
@@ -299,6 +303,20 @@ header .icons #menu-bars{
     padding-left: 4rem;
 }
 
+
+.home .home-slider .slide .content .p{
+    
+        text-align: center  ;
+        
+}
+.home .home-slider .slide .content p{
+    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-left: 13rem;
+
+font-style: italic;
+font-size: 1.3rem;
+}
 
 
 .home .home-slider .slide .image{
