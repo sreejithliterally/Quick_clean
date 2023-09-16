@@ -87,7 +87,7 @@ const Home = () => {
     className="rounded-button" // Apply the 'rounded-button' class here
     style={{ marginLeft: '14rem' }}
   >
-    <i class="fab fa-whatsapp"></i> Now
+    <i class="fab fa-whatsapp"></i> 
   </a>
 </div>
 
