@@ -64,7 +64,7 @@ section:nth-child(even){
     font-family:'Times New Roman', Times, serif;
 
     display: inline-block;
-    padding: 10px 20px; /* Adjust the padding as needed */
+    padding: 10px 10px; /* Adjust the padding as needed */
     border-radius: 50%; /* Makes the button round */
     background-color: rgb(34, 148, 34); /* Change the background color as needed */
     color: #fff; /* Change the text color as needed */
@@ -80,7 +80,7 @@ section:nth-child(even){
 
 
 .btn2{
-    margin-top: 1rem;
+    margin-top:0;
     display: inline-block;
     font-size: 1.7rem;
     color:#fff;
