@@ -72,11 +72,14 @@ const Home = () => {
           <div className="wrapper">
             <div className="slide">
               <div className="content">
+                <div className='hero-fix'>
               <span className='span-text'>Your Trusted Laundry Partner</span>
                 {/* <h3>Quick Clean</h3> */}
                 <div className='hero-image'>
                 <img src={qcog} alt='card' style={{ width: '100%', height: 'auto' }}/>
                 </div>
+                </div>
+                <div className='text-button-hero'>
                   <div className='hero-p'>
               <p> Want us to pick your clothes?</p>
                 </div>
@@ -87,10 +90,10 @@ const Home = () => {
     className="rounded-button" // Apply the 'rounded-button' class here
     style={{ marginLeft: '14rem' }}
   >
-    <i class="fab fa-whatsapp"></i> 
+    <i class="fab fa-whatsapp"></i> Whatsapp Us
   </a>
 </div>
-
+</div>
 
               </div>
               {/* <div className='time-image'>
