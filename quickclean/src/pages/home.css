@@ -65,7 +65,7 @@ section:nth-child(even){
 
     display: inline-block;
     padding: 10px 10px; /* Adjust the padding as needed */
-    border-radius: 50%; /* Makes the button round */
+    border-radius: .5rem; /* Makes the button round */
     background-color: rgb(34, 148, 34); /* Change the background color as needed */
     color: #fff; /* Change the text color as needed */
     text-decoration: none;
