@@ -409,10 +409,11 @@ const Home = () => {
     <div className="location">
     <h2>Mon-Sat (9am-7pm) </h2>
       <h2>Our Branches</h2>
-      <p> Mundakkal</p>
-      <p> Polayathodu(opp. Tiptop furniture)</p>
-      <p> Karikode(opp. Supreme supermarker)</p>
-
+      <ul>
+      <li> Mundakkal</li>
+      <li> Polayathodu(opp. Tiptop furniture)</li>
+      <li> Karikode(opp. Supreme supermarket)</li>
+      </ul>
     </div>
     <div className="contact-info">
       <h2>Contact Information:</h2>
