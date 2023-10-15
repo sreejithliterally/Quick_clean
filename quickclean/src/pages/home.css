@@ -639,7 +639,7 @@ font-size: 1.7rem;
 
   .contact-details .title {
     font-size: 30px;
-    padding-bottom: 2rem;
+    padding-bottom: .5rem;
   }
 
   .contact-details .location h2 {
