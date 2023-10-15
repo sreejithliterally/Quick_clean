@@ -407,7 +407,7 @@ const Home = () => {
   <div className="contact-details" id ='contact'>
     <h1 className="title">Reach out to us through</h1>
     <div className="location">
-    <h2>Mon-Sat (9am-6pm) </h2>
+    <h2>Mon-Sat (9am-7pm) </h2>
       <h2>Address:</h2>
       <p> Quick Clean dry cleaners,
       Polayathodu, Kollam, Kerala 691011</p>
